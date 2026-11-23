@@ -1,7 +1,9 @@
 // Warning Label for Humans: One Line, Big Laugh — make.fun entry.
 // Writes one single-line safety warning label to /output/entry.txt:
 // real label phrasing applied to a universal human flaw, with the laugh
-// landing in the last few words.
+// landing in the last few words ("in that order"). 116 characters, inside
+// the 160-character gate; the triple repetition sets the rhythm and the
+// final three words deliver the punch.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
